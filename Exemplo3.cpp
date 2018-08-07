@@ -1,18 +1,17 @@
-#include <stdio.h>
-#include <stdlib.h>
-
+#include<stdio.h>
+#include<stdlib.h>
+#include<locale.h>
+//Calcular area de um terreno retangular
 main(){
-	float n1;
-	float n2;
-	float n3;
-	float media;
-	printf("Digite o valor da primeira nota:\n");
-	scanf("%f",&n1);
-	printf("Digite o valor da segunda nota:\n");
-	scanf("%f",&n2);
-	printf("Digite o valor da terceira nota:\n");
-	scanf("%f",&n3);
-	media = (n1 + n2 +n3)/3;
-	printf("O valor total da média é: %.1f\n",media);
+	setlocale(LC_ALL,"portuguese");
+	float largura;
+	float comprimento;
+	float area;
+	printf("Valor da largura:\n");
+	scanf("%f",&largura);
+	printf("Valor do comprimento:\n");
+	scanf("%f",&comprimento);
+	area = largura * comprimento;
+	printf("Área total do terreno:%.1f\n",area);
 	system("pause");
 }

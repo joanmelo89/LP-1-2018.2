@@ -1,16 +1,18 @@
-#include <stdio.h>
-#include <stdlib.h>
-
+#include<stdio.h>
+#include<stdlib.h>
+#include<locale.h>
+//Calcular valor de reajuste salarial
 main(){
-	float comprimento;
-	float largura;
-	float area;
-	printf("Digite o comprimento do terreno:\n");
-	scanf("%f",&comprimento);
-	printf("Digite a largura do terreno:\n");
-	scanf("%f",&largura);
-	area = comprimento * largura;
-	printf("O valor total da área do terreno é:%.2f\n",area);
+	setlocale(LC_ALL,"portuguese");
+	float salario;
+	float novoSalario;
+	float reajuste;
+	printf("Qual o valor do salário?\n");
+	scanf("%f",&salario);
+	printf("Valor do reajuste:\n");
+	scanf("%f",&reajuste);
+	novoSalario = salario + ((salario*reajuste)/100);
+	printf("Salário reajustado: R$%.2f\n",novoSalario);
 	system("pause");
-	
 }
+
