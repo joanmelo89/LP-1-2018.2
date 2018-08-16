@@ -1,7 +1,9 @@
 Exemplo: Um posto está vendendo combustíveis com a seguinte tabela de descontos: . 
+
 Álcool: 
 a. até 20 litros, desconto de 3% por litro 
 b. acima de 20 litros, desconto de 5% por litro 
+
 Gasolina: 
 c. até 20 litros, desconto de 4% por litro 
 d. acima de 20 litros, desconto de 6% por litro 
