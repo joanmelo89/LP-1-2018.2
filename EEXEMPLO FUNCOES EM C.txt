@@ -1,0 +1,7 @@
+1 - Crie um programa onde o usuário digita três valores e imprima na tela o maior valor, devendo para isso, criar uma função Maior do tipo int que retorna o maior dos três valores.
+
+2 - Crie um programa onde o usuário digita três valores e imprima na tela o menor valor, devendo para isso, criar uma função Menor do tipo void que imprime na tela o menor valor. 
+
+3 - Crie um programa onde o usuário digita dois valores e imprima a soma, subtração, multiplicação e divisão do primeiro valor pelo segundo, sendo que deverá ser criada uma função para cada operação.
+
+4 - Criar uma função para buscar um menor número em um vetor.

@@ -5,8 +5,8 @@
 main(){
 	setlocale(LC_ALL, "portuguese");
 	int M[3][3];
-	int i,j;
-	int qtdPares, qtdImpares;
+	int i,j;int qtdPares, qtdImpares;
+	
 	//preenchimento da matriz
 	for(i = 0;i < 3; i++){
 		for(j = 0; j < 3; j++){
