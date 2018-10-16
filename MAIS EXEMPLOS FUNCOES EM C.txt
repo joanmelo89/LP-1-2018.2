@@ -1,0 +1,3 @@
+1 - Crie um programa em C que peça 5 números ao usuário, armazene esses dados em um vetor, passe esse vetor para uma função que retorna o valor da média dos números desse vetor.
+
+2 - Crie um programa em C que peça para o usuário preencher uma matriz 3x3, que exiba ela e o valor de seu traço em seguida. Use funções para preencher a matriz, exibir e calcular o traço.
